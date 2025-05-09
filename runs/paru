@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+sudo pacman -S --noconfirm --needed base-devel
+mkdir -p $HOME/repositories
+pushd $HOME/repositories/
+
+if [ -d "paru" ]; then
+  rm -rf "paru"
+fi
+
+git clone https://aur.archlinux.org/paru.git
+
+cd paru
+makepkg -si
+
+popd
