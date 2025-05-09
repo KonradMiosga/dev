@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-dry_run="1"
+dry_run="0"
 
 if [ -z "$XDG_CONFIG_HOME" ]; then
   echo "no xdg config hom"
@@ -64,3 +64,6 @@ update_files $DEV_ENV/env/.config $XDG_CONFIG_HOME
 update_files $DEV_ENV/env/.local $HOME/.local
 
 copy $DEV_ENV/env/.config/starship.toml $HOME/.config/starship.toml
+copy $DEV_ENV/env/.zprofile $HOME/.zprofile
+
+hyprctl reload
