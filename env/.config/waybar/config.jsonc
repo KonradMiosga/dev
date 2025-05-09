@@ -13,8 +13,7 @@
     ],
 
     "modules-center": [
-        "clock",
-        "power-profiles-daemon"
+        "clock"
     ],
 
     "modules-right": [
@@ -24,7 +23,8 @@
         "memory",
         "battery",
         "network",
-        "pulseaudio"
+        "pulseaudio",
+        "power-profiles-daemon"
     ],
 
     "hyprland/workspaces": {
