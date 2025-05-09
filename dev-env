@@ -65,5 +65,6 @@ update_files $DEV_ENV/env/.local $HOME/.local
 
 copy $DEV_ENV/env/.config/starship.toml $HOME/.config/starship.toml
 copy $DEV_ENV/env/.zprofile $HOME/.zprofile
+copy $DEV_ENV/env/.wezterm.lua $HOME/.wezterm.lua
 
 hyprctl reload
