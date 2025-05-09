@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
 sudo pacman -S --noconfirm --needed wofi tmux thunar swaync nwg-look waybar kitty starship
+sudo pacman -S --noconfirm --needed zsh zsh-autosuggestions zsh-syntax-highlighting
 sudo pacman -S --noconfirm --needed hypridle hyprpaper
 sudo pacman -S --noconfirm --needed ttf-font-awesome ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols
