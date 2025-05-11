@@ -7,10 +7,8 @@
 # git push
 # popd
 
-echo " "
-echo "syncing dev"
-pushd ~/dev
+pushd ~/dev &>/dev/null
 git add .
 git commit -m 'automated dev commit'
 git push
-popd
+popd &>/dev/null
