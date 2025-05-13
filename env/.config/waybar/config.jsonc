@@ -73,7 +73,7 @@
 
     "network": {
         "format-wifi" : "wifi {bandwidthDownBits}",
-        "format-ethernet": "enth {bandwidthDownBits}",
+        "format-ethernet": "eth {bandwidthDownBits}",
         "format-disconnected" : "no network",
         "interval": 5,
         "tooltip": false
