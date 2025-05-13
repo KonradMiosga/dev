@@ -16,25 +16,25 @@ c.colors.webpage.darkmode.algorithm = 'lightness-cielab'
 c.colors.webpage.darkmode.policy.images = 'never'
 config.set('colors.webpage.darkmode.enabled', False, 'file://*')
 
-# # fonts
-# c.fonts.default_family = []
-# c.fonts.default_size = '13pt'
-# c.fonts.web.family.fixed = 'monospace'
-# c.fonts.web.family.sans_serif = 'monospace'
-# c.fonts.web.family.serif = 'monospace'
-# c.fonts.web.family.standard = 'monospace'
-#
-# # privacy - adjust these settings based on your preference
-# # config.set("completion.cmd_history_max_items", 0)
-# # config.set("content.private_browsing", True)
-# config.set("content.webgl", False, "*")
-# config.set("content.canvas_reading", False)
-# config.set("content.geolocation", False)
-# config.set("content.webrtc_ip_handling_policy", "default-public-interface-only")
-# config.set("content.cookies.accept", "all")
-# config.set("content.cookies.store", True)
-# # config.set("content.javascript.enabled", False) # tsh keybind to toggle
-#
+# fonts
+c.fonts.default_family = []
+c.fonts.default_size = '13pt'
+c.fonts.web.family.fixed = 'monospace'
+c.fonts.web.family.sans_serif = 'monospace'
+c.fonts.web.family.serif = 'monospace'
+c.fonts.web.family.standard = 'monospace'
+
+# privacy - adjust these settings based on your preference
+# config.set("completion.cmd_history_max_items", 0)
+# config.set("content.private_browsing", True)
+config.set("content.webgl", False, "*")
+config.set("content.canvas_reading", False)
+config.set("content.geolocation", False)
+config.set("content.webrtc_ip_handling_policy", "default-public-interface-only")
+config.set("content.cookies.accept", "all")
+config.set("content.cookies.store", True)
+# config.set("content.javascript.enabled", False) # tsh keybind to toggle
+
 # # Adblocking info -->
 # # For yt ads: place the greasemonkey script yt-ads.js in your greasemonkey folder (~/.config/qutebrowser/greasemonkey).
 # # The script skips through the entire ad, so all you have to do is click the skip button.
