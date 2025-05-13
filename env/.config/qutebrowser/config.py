@@ -35,6 +35,8 @@ config.set("content.cookies.accept", "all")
 config.set("content.cookies.store", True)
 # config.set("content.javascript.enabled", False) # tsh keybind to toggle
 
+c.content.autoplay = False
+
 # # Adblocking info -->
 # # For yt ads: place the greasemonkey script yt-ads.js in your greasemonkey folder (~/.config/qutebrowser/greasemonkey).
 # # The script skips through the entire ad, so all you have to do is click the skip button.
