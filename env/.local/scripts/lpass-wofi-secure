@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+# Format: ID | Username | Name
+entries=$(lpass ls --format '%ai | %au | %an')
+
+# Let user pick an entry
+entry=$(echo "$entries" | wofi --dmenu --prompt "Select LastPass entry")
+
+[ -z "$entry" ] && exit 1
+
+# Extract ID (before first |)
+id=$(echo "$entry" | awk -F '|' '{print $1}' | xargs)
+
+# Ask what to copy
+action=$(printf "Copy Username\nCopy Password" | wofi --dmenu --prompt "Action")
+
+case "$action" in
+"Copy Username")
+  lpass show "$id" --username | wl-copy
+  notify-send "lpass-wofi" "Username copied to clipboard"
+  ;;
+"Copy Password")
+  lpass show "$id" --password | wl-copy
+  notify-send "lpass-wofi" "Password copied to clipboard"
+  ;;
+*)
+  exit 0
+  ;;
+esac
