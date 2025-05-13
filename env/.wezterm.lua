@@ -12,6 +12,8 @@ config.font = wezterm.font("JetBrains Mono Nerd Font")
 config.font_size = 14
 config.window_background_opacity = 0.9
 
+config.enable_wayland = false
+
 -- tmux
 -- this will be good...
 -- config.leader = { key = "a", mods = "CTRL", timeout_milliseconds = 2000 }
