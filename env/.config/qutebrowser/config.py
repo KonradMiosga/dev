@@ -7,6 +7,7 @@ config.bind('<Mod4-2>', 'tab-focus 2')
 config.bind('<Mod4-3>', 'tab-focus 3')
 config.bind('<Mod4-4>', 'tab-focus 4')
 config.bind('<Mod4-5>', 'tab-focus 5')
+config.bind('xb', 'config-cycle statusbar.show always never')
 
 config.bind('M', 'hint links spawn mpv {hint-url}')
 
