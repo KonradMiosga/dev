@@ -17,6 +17,10 @@ alias zbr="zig build run"
 alias gs="git status"
 alias h="history|grep"
 
+alias stud="cd ~/Studium/"
+alias dev="cd ~/dev/"
+alias pers="cd ~/personal/"
+
 # gitlog helper
 alias gls='git log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate'
 alias gll='git log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat'
