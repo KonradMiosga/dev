@@ -30,5 +30,5 @@ alias gdatelong='git log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/.local/scripts:$PATH"
 export PATH="/home/copperplate/.local/bin:$PATH"
-
+export PATH="/home/copperplate/SAPClients/SAPGUI/bin:$PATH"
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
