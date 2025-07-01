@@ -10,7 +10,7 @@ local config = wezterm.config_builder()
 config.color_scheme = "Gruvbox Material (Gogh)"
 config.font = wezterm.font("JetBrains Mono Nerd Font")
 config.font_size = 14
-config.window_background_opacity = 0.9
+config.window_background_opacity = 1
 
 config.enable_wayland = false
 
