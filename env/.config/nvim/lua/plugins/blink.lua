@@ -1,5 +1,6 @@
 return {
   "saghen/blink.cmp",
+  -- enabled = false,
   opts = function(_, opts)
     opts.keymap = {
       preset = "default", -- Disable default keymap presets
